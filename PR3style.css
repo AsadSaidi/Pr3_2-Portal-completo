@@ -1,0 +1,265 @@
+body {
+    background: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+header img{
+    width: 20%;
+    padding-bottom: 2%;
+    justify-content: center;
+}
+
+header img:hover{
+    opacity: 80%;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header nav a:hover{
+    transform: scale(1.2);
+    opacity: 50%;
+}
+
+nav a{
+    color: red;
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+section h2 {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: flex-start;
+    color: red;
+    font-style: Arial red (sans-serif);
+}
+
+.containerPeliculas{
+    padding-top: 20px;
+    display:flex ;
+    text-align: center;
+    flex-direction: row;
+    text-justify: auto;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    text-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.containerPeliculas article:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+.containerPeliculas img {
+    width: 250px;
+    height: 375px;
+    border-radius: 15px;
+    flex-shrink: 1;
+
+}
+
+.containerPeliculas article{
+    color: white;
+    max-width: fit-content;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.ACTORES h1{
+    padding-left: 20px;
+    color: red;
+}
+
+.ACTORES{
+    background: rgb(29, 29, 29);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.containerActores {
+    padding-top: 20px;
+    display:flex ;
+    text-align: center;
+    flex-direction: row;
+    text-justify: auto;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    text-wrap: wrap;
+}
+
+.containerActores img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    flex-shrink: 1;
+}
+.containerActores article{
+    color: white;
+    max-width: fit-content;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.containerActores article:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+
+.festivalesyseries {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    white-space: wrap;
+}
+
+.containerFestivales {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: white;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 10PX;
+    flex-wrap: wrap;
+}
+
+.containerFestivales article img{
+    width: 350px;
+    height: 175px;
+    border-radius: 15px;
+    flex-shrink: 1;
+}
+
+#festivales{
+    padding-left: 20px;
+    color: red;
+}
+
+.containerFestivales article:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+
+.series article img{
+    width: 350px;
+    height: 175px;
+    border-radius: 15px;
+    flex-shrink: 1;
+}
+
+.series{
+    color: white;
+    font-size: large;
+}
+
+.series h1{
+    color: red;
+    padding-left: 40px;
+}
+
+.containerSeries {
+    padding-top: 20px;
+    display:flex ;
+    text-align: start;
+    flex-direction: row;
+    text-justify: auto;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.containerSeries article:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+
+.containerMasvisto{
+    padding-top: 20px;
+    display:flex ;
+    text-align: start;
+    flex-direction: row;
+    text-justify: auto;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    text-wrap: wrap;
+}
+
+.containerMasvisto img{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    flex-shrink: 1;
+}
+
+.lo-mas-visto h1{
+    color: red;
+    padding-left: 20px;
+}
+
+.containerMasvisto article:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+
+.containerMasvisto h3{
+    color: white;
+}
+
+.lo-mas-visto{
+    background: rgb(29, 29, 29);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.redes a img{
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+.redes a :hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+.direccion, .copy{
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+

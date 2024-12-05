@@ -1,0 +1,118 @@
+body {
+    background: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+header img{
+    width: 20%;
+    padding-bottom: 2%;
+    justify-content: center;
+}
+
+header img:hover{
+    opacity: 80%;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header nav a:hover{
+    transform: scale(1.2);
+    opacity: 50%;
+}
+
+nav a{
+    color: red;
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+.contacto form label{
+    color: white;
+    text-align: start;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.contacto form{
+    display: flex;
+    flex-direction: column;
+    background: rgb(29, 29, 29);
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+.contacto input{
+    background: rgb(39, 39, 39);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: white;
+    padding: 5px;
+}
+
+#enviar{
+    margin-top: 20px;
+    width: 30%;
+    background: red;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#enviar:hover{
+    opacity: 70%;
+}
+
+#tituloContacto{
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer{
+    background: rgb(29, 29, 29);
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.redes a img{
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+.redes a :hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+.direccion, .copy{
+    color: white;
+    margin-left: 10px;
+}

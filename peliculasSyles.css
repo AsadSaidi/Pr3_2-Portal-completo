@@ -1,0 +1,113 @@
+body {
+    background: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+header img{
+    width: 20%;
+    padding-bottom: 2%;
+}
+
+header img:hover{
+    opacity: 80%;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header nav a:hover{
+    transform: scale(1.2);
+    opacity: 50%;
+}
+
+
+nav a{
+    color: red;
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+section h2 {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: flex-start;
+    color: red;
+    font-style: Arial red (sans-serif);
+}
+
+.containerPeliculas{
+    padding-top: 20px;
+    display:flex ;
+    text-align: center;
+    flex-direction: row;
+    text-justify: auto;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    text-wrap: wrap;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.containerPeliculas article:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+.containerPeliculas img {
+    width: 375px;
+    height: 562px;
+    border-radius: 15px;
+    flex-shrink: 1;
+
+}
+
+.containerPeliculas article{
+    color: white;
+    max-width: fit-content;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+footer{
+    background: rgb(29, 29, 29);
+    padding-bottom: 10px;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.redes a img{
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+.redes a :hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+
+.direccion, .copy{
+    color: white;
+    margin-left: 10px;
+}

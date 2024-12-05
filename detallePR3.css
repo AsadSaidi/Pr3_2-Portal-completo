@@ -1,0 +1,132 @@
+body {
+    background: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+header img{
+    width: 20%;
+    padding-bottom: 2%;
+    justify-content: center;
+}
+
+header img:hover{
+    opacity: 80%;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header nav a:hover{
+    transform: scale(1.2);
+    opacity: 50%;
+}
+
+nav a{
+    color: red;
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.containerPeli{
+    margin: 80px;
+    background-color: rgb(29, 29, 29);
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+}
+
+.fotoPeli img{
+    width: 300px;
+    padding: 20px;
+}
+
+.containerPeli img:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+
+.detalles{
+    color: white;
+    text-wrap: wrap;
+    padding-left: 30px;
+}
+
+.detalles h2{
+    color: red;
+    font-size: x-large;
+}
+
+.detalles p{
+    width: 90%;
+}
+
+.actores1917{
+    padding-top: 20px;
+    display:flex ;
+    text-align: center;
+    flex-direction: row;
+    text-justify: auto;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    text-wrap: wrap;
+}
+
+.actores1917 img{
+    width: 100px;
+    border-radius: 15px;
+    flex-shrink: 1;
+}
+
+.actores1917 article{
+    color: white;
+    max-width: fit-content;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.redes a img{
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+.redes a :hover{
+    opacity: 70%;
+    transform: scale(1.1);
+}
+.direccion, .copy{
+    color: white;
+    margin-left: 10px;
+}
+
+footer{
+    background: rgb(29, 29, 29);
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
